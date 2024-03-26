@@ -1,0 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+Region=np.array(['east','west','north','south'])
+Sales=np.array([100,200,300,400])
+plt.bar(Region,Sales)
+plt.show()
