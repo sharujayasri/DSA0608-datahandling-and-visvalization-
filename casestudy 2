@@ -1,0 +1,29 @@
+(i)stackedbar
+data<-read.table(text="diary staplefood high-caloriefood supplements
+1 50,30,30,30
+2 35,45,15,5
+3 25,55,13,7
+4 40,40,4,16",header=TRUE)
+barplot(as.matrix(data),col=c("orange","yellow","red","green"))
+(ii)lineplot
+a<-( 50,30,30,30)
+b<-( 35,45,15,5)
+c<-( 25,55,13,7)
+d<-( 40,40,4,16)
+plot(a,type="o",xlab="productsales",ylab="prodect",main="salesdata",col="red")
+lines(b,type="o",col="blue")
+lines(c,type="o",col="yellow")
+lines(d,type="o",col="green")
+(iii)stackedbar
+a<-c( 50,30,30,30)
+b<-c( 35,45,15,5)
+c<-c( 25,55,13,7)
+d<-c( 40,40,4,16)
+plot(a,b,xlab="productsales",ylab="prodect",main="salesdata",col="red",cex=2)
+points(c,d,col="blue",cex=2)
+(iv)histogram
+a<-c( 50,30,30,30)
+b<-c( 35,45,15,5)
+c<-c( 25,55,13,7)
+d<-c( 40,40,4,16)
+hist(a,col="red",header=TRUE)
