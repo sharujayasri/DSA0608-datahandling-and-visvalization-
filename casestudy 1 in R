@@ -1,0 +1,4 @@
+A <-c("north","south","east","west")
+B <-c(100,200,300,400)
+c <-barplot(B , names.arg= A, xlab="Region" , ylab="sales in dolar" , main="sales analysis")
+print(c)
