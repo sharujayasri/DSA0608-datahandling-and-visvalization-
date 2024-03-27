@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+age=(10,22,34,56,7,7,83,21)
+plt.hist(age,edgecolor='black')
+plt.show()
