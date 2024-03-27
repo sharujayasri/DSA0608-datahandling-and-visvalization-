@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+labels='rent','food','cloths','transport'
+sizes=[20,35,30,25]
+plt.pie(sizes,labels=labels)
+plt.axis('equal')
+plt.show()
